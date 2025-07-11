@@ -1,0 +1,39 @@
+.wrapper {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  background: #fefefe;
+  width: 300px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stars {
+  font-size: 2.5rem;
+}
+
+.filledStar {
+  color: #ffd700;
+  cursor: pointer;
+  font-size: 3.0rem;
+  transition: transform 0.2s;
+}
+.filledStar:hover {
+  transform: scale(1.2);
+}
+
+.emptyStar {
+  color: #111;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.emptyStar:hover {
+  transform: scale(1.2);
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
